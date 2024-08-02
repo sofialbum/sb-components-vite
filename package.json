@@ -1,7 +1,7 @@
 {
   "name": "sjg-custom-components",
   "private": false,
-  "version": "0.0.1-rc4",
+  "version": "0.1.0",
   "type": "module",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -42,7 +42,7 @@
     "clean": "rimraf dist/",
     "copyfiles": "copyfiles -u 1 src/**/*.css dist/",
     "push:npm": "np",
-    "test": "echo 'all tests were good" 
+    "test": "echo 'all tests were good"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^1.6.1",
